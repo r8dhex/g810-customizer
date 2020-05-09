@@ -1,15 +1,21 @@
-.row {
+.g810 {
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.g810 .row {
 	padding-bottom:6px;
-	height: 50px;
+	height: 60px;
 	display: block;
 	clear:both;
 }
 
-.key {
+.g810 .key {
 	font-family: sans-serif;
 	display: block;
-	width: 30px; 
-	height: 30px;
+	width: 40px; 
+	height: 40px;
 	border: 1px solid black;
 	border-radius: 6px;
 	padding-top: 8px;
@@ -20,41 +26,57 @@
 	background-color:black;
 	color: white;
 	text-align:center;
+	cursor: pointer;
 }
 
-.spacer {
+.g810 .spacer {
 	display: block;
 	height: 40px;
 	float:left;
 }
 
-.key-backspace {
+.g810 .key-logo, .g810 .indicators {
+	background-color: white;
+	border-radius: 50%;
+	color:black;
+}
+
+.g810 .multimedia {
+	border-radius: 50%;
+}
+
+.g810 .key-backspace {
+	width: 68px;
+}
+
+.g810 .key-tab, .g810 .key-backslash,
+.g810 .key-ctrl_left, .g810 .key-ctrl_right, .g810 .key-alt_left, .g810 .key-alt_right, 
+.g810 .key-win_left, .g810 .key-win_right, .g810 .key-menu {
 	width: 54px;
 }
 
-.key-tab, .key-backslash,
-.key-ctrl_left, .key-ctrl_right, .key-alt_left, .key-alt_right, 
-.key-win_left, .key-win_right, .key-menu {
-	width: 42px;
+.g810 .key-enter, .g810 .key-caps_lock {
+	width: 82px;
 }
 
-.key-enter, .key-caps_lock {
-	width: 65px;
+.g810 .key-shift_left, .g810 .key-shift_right {
+	width: 110px;
 }
 
-.key-shift_left, .key-shift_right {
-	width: 88px;
+.g810 .key-space {
+	width: 306px;
 }
 
-.key-space {
-	width: 246px;
+.g810 .key-num_0 {
+	width: 96px;
 }
 
-.key-num_0 {
-	width: 76px;
+.g810 .key-num_plus, .g810 .key-num_enter {
+	margin-top: -66px;
+	height: 106px;
 }
 
-.key-num_plus, .key-num_enter {
-	margin-top: -56px;
-	height: 86px;
+.g810 .key-home, .g810 .key-page_up, .g810 .key-page_down, .g810 .key-num_lock, 
+.g810 .key-scroll_lock, .g810 .key-print_screen {
+	font-size: 0.8em;
 }
